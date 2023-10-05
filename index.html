@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fbclone.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="hleft">
+                <a class="logo" href="index.html">facebook</a>
+            </div>
+            <div class="hright">
+                <form action="" >
+                    <table  class="login">
+                       <tr class="logintext">
+                        <td>Email or Mobile</td>
+                        <td class="pass"></td>
+                        <td>Password</td>
+                        
+                       </tr>
+                       <tr class="logintext">
+                        <td><input type="text"></td>
+                        <td class="pass"></td>
+                        <td><input type="text"></td>
+                        <td class="pass"></td>
+                        <td><input class="loginbtn" type="button" value="Log In"></td>
+                        
+                    </tr>
+                       <tr>
+                        <td></td>
+                        <td class="pass"></td>
+                        <td><a class="forgottext" href="forgot.html">Forgotten account?</a></td>
+                       </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main_body">
+            <div class="lbody">
+                <p class="para">Facebook helps you connect and share with the <br>people in your life.</p>
+                <img src="fbpic.png" class="image" alt="Facebook">
+            </div>
+            <div class="rbody">
+                <label class="ctitle">Create an account</label>
+                <p>It's free and always will be.</p>
+                <form action="signupfb.html" id="signupFb">
+                    <div>
+                        <input type="text" name="fname" class="set1" placeholder="First Name">
+                        <input type="text" name="lname" class="set1" placeholder="Last Name">
+                        <input type="text" name="email" class="set2" placeholder="Mobile number or email address"><br>
+                        <input type="text" class="set2" placeholder="New Password">
+                    </div>
+                    <div class="birth">
+                    <table  class="birth_table"><tr><th align="left"><label class="birthday">Birthday</th></tr><tr><th>
+                    <select class="set3">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <select class="set3">
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>Mar</option>
+                        <option>Apr</option>
+                        <option>May</option>
+                    </select>
+                    <select class="set3">
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option></select></th><th align="left">
+                    <a class="birthtext" href="birthday.html">why I need to provide my <br> birthday?</a><br><br>
+                    </th></tr></table><br>
+                    <input type="radio">Male
+                    <input type="radio">Female
+                    <br>
+                    <p class="terms">By clicking Create an account you agree to our terms and <br>confirm that you have read our Data Policy. including our cookie <br>Policy. You may recieve SMS message notifications from <br> Facebook and can opt out at any time</p><br>
+                    </div>
+                    <input class="create_btn" type="submit" value="Create an account">
+                    <p class="page"><a href="">Create a Page</a> for a celebrity, band or business</p>
+                </form>
+
+            </div>
+           
+        </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="scriptfb.js"></script>
+</body>
+</html>
